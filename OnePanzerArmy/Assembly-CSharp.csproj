@@ -65,6 +65,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameControl\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\GameControl\GameController.cs" />
+    <Compile Include="Assets\Scripts\Projectiles\Explosion.cs" />
+    <Compile Include="Assets\Scripts\Projectiles\IProjectiles.cs" />
+    <Compile Include="Assets\Scripts\Projectiles\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Projectiles\ProjectilePool.cs" />
+    <Compile Include="Assets\Scripts\Units\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Units\EnemyTurret.cs" />
     <Compile Include="Assets\Scripts\Units\Player.cs" />
     <Compile Include="Assets\Scripts\Units\PlayerTurret.cs" />
     <Reference Include="UnityEngine">
